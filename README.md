@@ -53,6 +53,8 @@ scala-cli run module13projects/
 | `module20oopinscala3` | Scala 3 OOP tools and richer enums | `TraitParameters.scala`, `OpenClasses.scala`, `ExportClauses.scala`, `EnumsWithBehavior.scala` |
 | `module21safetymodel` | Null boundaries, invariants, exhaustive states, initialization | `ExplicitNullBoundaries.scala`, `SmartConstructors.scala`, `ExhaustiveMatches.scala`, `InitializationPatterns.scala` |
 | `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala` |
+| `module23toolingandinterop` | Toolchain, Java interop, and migration checkpoints | `ScalaCliDirectives.scala`, `SbtAndProjectLayout.scala`, `JavaInteropBasics.scala`, `MigrationNotes.scala` |
+| `module24capstone` | Final Scala 3 integration projects | `ContextAwareJobBoard.scala`, `TypedOrderSystem.scala`, `CompileTimeDiagnostics.scala`, `Scala3FeatureTourApp.scala` |
 
 ## Navigation by Goal
 
@@ -86,7 +88,7 @@ scala-cli run module13projects/
 - **OOP and design**: `module11`, `module13`
 - **Error handling**: `module05`, `module12`
 - **Domain modeling**: `module11`, `module12`, `module13`
-- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`, `module20`, `module21`, `module22`
+- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`, `module20`, `module21`, `module22`, `module23`, `module24`
 
 ## Recommended Review Order Before Interviews
 

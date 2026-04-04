@@ -103,3 +103,6 @@ A topic-based index for fast interview preparation.
 - `module20oopinscala3/*.scala` — trait parameters, open classes, export clauses, rich enums
 - `module21safetymodel/*.scala` — null boundaries, smart constructors, exhaustive modeling, initialization patterns
 - `module22metaprogramming/*.scala` — inline, constValue, quotes, and reflection
+
+- `module23toolingandinterop/*.scala` — Scala CLI, sbt layout, Java interop, migration checklist
+- `module24capstone/*.scala` — final integration projects combining multiple Scala 3 features

@@ -9,7 +9,8 @@ import scala.reflect.Selectable.reflectiveSelectable
 // This file shows a small example that works with any value having a close() method.
 
 type Closable =
-    Selectable {
+    // TODO https://docs.scala-lang.org/scala3/book/types-structural.html#:~:text=Structural%20types%20help%20in%20situations,and%20methods%20should%20be%20resolved.
+    /*Selectable*/ {
         def close(): String
     }
 
