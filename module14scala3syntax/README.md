@@ -10,6 +10,7 @@ Covers core Scala 3 syntax changes and source-organization improvements.
 | `TopLevelDefinitions.scala` | Top-level vals, defs, enums, and case classes |
 | `MainMethods.scala` | Scala 3 `@main` entry points and command-line friendly methods |
 | `WildcardTypes.scala` | `?` wildcard syntax in types and APIs |
+| `CreatorApplications.scala` | Function-like construction without `new` through creators |
 
 ## Run
 

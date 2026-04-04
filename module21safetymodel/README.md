@@ -10,6 +10,8 @@ Covers Scala 3-oriented safety ideas for null handling, invariants, exhaustive m
 | `SmartConstructors.scala` | Encoding invariants with validated constructors |
 | `ExhaustiveMatches.scala` | Safer state handling through closed models |
 | `InitializationPatterns.scala` | Prefer constructor parameters and lazy values over unsafe setup |
+| `ExplicitNullsMode.scala` | Visibility of nullable references and boundary normalization |
+| `SafeInitializationNotes.scala` | Additional safe initialization practices |
 
 ## Run
 

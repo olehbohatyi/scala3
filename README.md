@@ -44,16 +44,16 @@ scala-cli run module13projects/
 | `module11domainoop` | OOP and domain-oriented modeling | `ClassesAndConstructors.scala`, `TraitsAndMixins.scala`, `EnumsBasics.scala` |
 | `module12domainfp` | Functional domain modeling | `CaseClasses.scala`, `SealedTraitsAndAdts.scala`, `OptionBasics.scala`, `EitherBasics.scala`, `TryBasics.scala` |
 | `module13projects` | Mini-projects for interviews and portfolio | `ExpenseTrackerApp.scala`, `InterviewPipelineApp.scala`, `LibraryRentalApp.scala`, `SupportTicketApp.scala` |
-| `module14scala3syntax` | Scala 3 syntax updates | `OptionalBraces.scala`, `TopLevelDefinitions.scala`, `MainMethods.scala`, `WildcardTypes.scala` |
+| `module14scala3syntax` | Scala 3 syntax updates | `OptionalBraces.scala`, `TopLevelDefinitions.scala`, `MainMethods.scala`, `WildcardTypes.scala`, `CreatorApplications.scala` |
 | `module15givensandusing` | Contextual abstractions basics | `GivenInstances.scala`, `UsingClauses.scala`, `SummonAndContextParameters.scala`, `ContextBounds.scala`, `GivenImports.scala` |
 | `module16extensionandtypeclasses` | Extension methods, type classes, equality, conversions | `ExtensionMethods.scala`, `TypeClasses.scala`, `MultiversalEquality.scala`, `ImplicitConversions.scala` |
 | `module17contextfunctions` | Context functions and contextual workflows | `BasicContextFunctions.scala`, `ContextFunctionValues.scala`, `ContextualWorkflows.scala`, `ContextFunctionsVsUsing.scala` |
 | `module18newtypes1` | Union, intersection, opaque, structural, transparent features | `UnionAndIntersectionTypes.scala`, `OpaqueTypes.scala`, `StructuralTypes.scala`, `TransparentTraitsAndClasses.scala` |
 | `module19newtypes2` | Dependent, polymorphic, lambda, and match types | `DependentFunctionTypes.scala`, `PolymorphicFunctionTypes.scala`, `TypeLambdas.scala`, `MatchTypes.scala` |
 | `module20oopinscala3` | Scala 3 OOP tools and richer enums | `TraitParameters.scala`, `OpenClasses.scala`, `ExportClauses.scala`, `EnumsWithBehavior.scala` |
-| `module21safetymodel` | Null boundaries, invariants, exhaustive states, initialization | `ExplicitNullBoundaries.scala`, `SmartConstructors.scala`, `ExhaustiveMatches.scala`, `InitializationPatterns.scala` |
-| `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala` |
-| `module23toolingandinterop` | Toolchain, Java interop, and migration checkpoints | `ScalaCliDirectives.scala`, `SbtAndProjectLayout.scala`, `JavaInteropBasics.scala`, `MigrationNotes.scala` |
+| `module21safetymodel` | Null boundaries, invariants, exhaustive states, initialization | `ExplicitNullBoundaries.scala`, `SmartConstructors.scala`, `ExhaustiveMatches.scala`, `InitializationPatterns.scala`, `ExplicitNullsMode.scala`, `SafeInitializationNotes.scala` |
+| `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala`, `SplicesAndQuotedPatterns.scala`, `ReflectTreeInspection.scala` |
+| `module23toolingandinterop` | Toolchain, Java interop, and migration checkpoints | `ScalaCliDirectives.scala`, `SbtAndProjectLayout.scala`, `JavaInteropBasics.scala`, `MigrationNotes.scala`, `PackagingAndImports.scala`, `WorksheetsAndTesting.scala` |
 | `module24capstone` | Final Scala 3 integration projects | `ContextAwareJobBoard.scala`, `TypedOrderSystem.scala`, `CompileTimeDiagnostics.scala`, `Scala3FeatureTourApp.scala` |
 
 ## Navigation by Goal

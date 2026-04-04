@@ -10,6 +10,8 @@ Covers practical Scala 3 workflows around Scala CLI, sbt, Java interop, and migr
 | `SbtAndProjectLayout.scala` | sbt layout, source directories, and test structure |
 | `JavaInteropBasics.scala` | Working with Java collections and Java-style APIs |
 | `MigrationNotes.scala` | Practical Scala 2 to Scala 3 migration checkpoints |
+| `PackagingAndImports.scala` | Packaging structure and import guidance |
+| `WorksheetsAndTesting.scala` | Worksheets, REPL, and testing workflow |
 
 ## Run
 
