@@ -47,6 +47,9 @@ scala-cli run module13projects/
 | `module14scala3syntax` | Scala 3 syntax updates | `OptionalBraces.scala`, `TopLevelDefinitions.scala`, `MainMethods.scala`, `WildcardTypes.scala` |
 | `module15givensandusing` | Contextual abstractions basics | `GivenInstances.scala`, `UsingClauses.scala`, `SummonAndContextParameters.scala`, `ContextBounds.scala`, `GivenImports.scala` |
 | `module16extensionandtypeclasses` | Extension methods, type classes, equality, conversions | `ExtensionMethods.scala`, `TypeClasses.scala`, `MultiversalEquality.scala`, `ImplicitConversions.scala` |
+| `module17contextfunctions` | Context functions and contextual workflows | `BasicContextFunctions.scala`, `ContextFunctionValues.scala`, `ContextualWorkflows.scala`, `ContextFunctionsVsUsing.scala` |
+| `module18newtypes1` | Union, intersection, opaque, structural, transparent features | `UnionAndIntersectionTypes.scala`, `OpaqueTypes.scala`, `StructuralTypes.scala`, `TransparentTraitsAndClasses.scala` |
+| `module19newtypes2` | Dependent, polymorphic, lambda, and match types | `DependentFunctionTypes.scala`, `PolymorphicFunctionTypes.scala`, `TypeLambdas.scala`, `MatchTypes.scala` |
 
 ## Navigation by Goal
 
@@ -80,7 +83,7 @@ scala-cli run module13projects/
 - **OOP and design**: `module11`, `module13`
 - **Error handling**: `module05`, `module12`
 - **Domain modeling**: `module11`, `module12`, `module13`
-- **Scala 3-specific features**: `module14`, `module15`, `module16`
+- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`
 
 ## Recommended Review Order Before Interviews
 

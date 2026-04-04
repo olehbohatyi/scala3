@@ -15,7 +15,7 @@ package module02basics
     // --- Explicit type annotation: name: Type = value ---
     // book example: declaring the type explicitly
     val age: Int        = 30
-    val name: String    = "Alvin"
+    val name: String    = "Oleh"
     val salary: Double  = 95_000.0
     val isActive: Boolean = true
     val initial: Char   = 'A'

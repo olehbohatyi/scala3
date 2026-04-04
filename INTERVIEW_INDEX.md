@@ -92,3 +92,10 @@ A topic-based index for fast interview preparation.
 - `module16extensionandtypeclasses/TypeClasses.scala` — type-class style programming
 - `module16extensionandtypeclasses/MultiversalEquality.scala` — `CanEqual` and strict equality
 - `module16extensionandtypeclasses/ImplicitConversions.scala` — controlled conversions and trade-offs
+
+- `module17contextfunctions/*.scala` — context functions and contextual workflows
+- `module18newtypes1/UnionAndIntersectionTypes.scala` — union and intersection types
+- `module18newtypes1/OpaqueTypes.scala` — opaque types for safer domain modeling
+- `module18newtypes1/StructuralTypes.scala` — structural typing trade-offs
+- `module18newtypes1/TransparentTraitsAndClasses.scala` — transparent inline type precision
+- `module19newtypes2/*.scala` — dependent, polymorphic, lambda, and match types

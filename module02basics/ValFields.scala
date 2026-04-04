@@ -14,10 +14,10 @@ package module02basics
 
     // --- Multiple vals building on each other ---
     // book example: composing names
-    val firstName = "Alvin"
-    val lastName  = "Alexander"
+    val firstName = "Oleh"
+    val lastName  = "Bohatyi"
     val fullName  = firstName + " " + lastName
-    println(s"fullName = $fullName")   // Alvin Alexander
+    println(s"fullName = $fullName")   // Oleh Bohatyi
 
     // --- Immutability: reassignment causes a compile error ---
     // uncommenting the line below will NOT compile:

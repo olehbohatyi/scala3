@@ -12,16 +12,16 @@ package module03strings
     // s"..." — the most common interpolator
     // =========================================================
 
-    val name = "Alvin"
+    val name = "Oleh"
     val age  = 42
 
     // embed a variable directly with $name
-    println(s"Hello, $name!")           // Hello, Alvin!
+    println(s"Hello, $name!")           // Hello, Oleh!
 
     // embed any expression with ${...}
     println(s"In 10 years: ${age + 10}")   // In 10 years: 52
     println(s"Name length: ${name.length}") // Name length: 5
-    println(s"Uppercase:   ${name.toUpperCase}")  // Uppercase: ALVIN
+    println(s"Uppercase:   ${name.toUpperCase}")  // Uppercase: Oleh
 
     // boolean expression inside interpolation
     val score = 87

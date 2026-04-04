@@ -13,3 +13,6 @@ out/
 
 # Logs
 *.log
+
+# IntelliJ IDEA
+.idea

@@ -28,11 +28,11 @@ package module01setup
     // --- Block as a value for complex initialisation ---
     // useful when the value requires several intermediate steps
     val greeting = {
-        val firstName = "Alvin"
-        val lastName  = "Alexander"
+        val firstName = "Oleh"
+        val lastName  = "Bohatyi"
         s"Hello, $firstName $lastName!"   // final string is returned
     }
-    println(greeting)   // Hello, Alvin Alexander!
+    println(greeting)   // Hello, Oleh Bohatyi!
 
     // --- Variable scoping: same name reused safely in separate blocks ---
     // this is the pattern used in the book's GitHub repository

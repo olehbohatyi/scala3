@@ -23,8 +23,8 @@ package module02basics
 
     // --- String concatenation with + (works but not idiomatic) ---
     // book example: two strings joined with +
-    val firstName = "Alvin"
-    val lastName  = "Alexander"
+    val firstName = "Oleh"
+    val lastName  = "Bohatyi"
     println("Hello, " + firstName + " " + lastName)   // works but verbose
 
     // --- s-interpolation: preferred approach ---
