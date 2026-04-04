@@ -49,7 +49,7 @@ scala-cli run module13projects/
 | `module16extensionandtypeclasses` | Extension methods, type classes, equality, conversions | `ExtensionMethods.scala`, `TypeClasses.scala`, `MultiversalEquality.scala`, `ImplicitConversions.scala` |
 | `module17contextfunctions` | Context functions and contextual workflows | `BasicContextFunctions.scala`, `ContextFunctionValues.scala`, `ContextualWorkflows.scala`, `ContextFunctionsVsUsing.scala` |
 | `module18newtypes1` | Union, intersection, opaque, structural, transparent features | `UnionAndIntersectionTypes.scala`, `OpaqueTypes.scala`, `StructuralTypes.scala`, `TransparentTraitsAndClasses.scala` |
-| `module19newtypes2` | Dependent, polymorphic, lambda, and match types | `DependentFunctionTypes.scala`, `PolymorphicFunctionTypes.scala`, `TypeLambdas.scala`, `MatchTypes.scala` |
+| `module19newtypes2` | Dependent, polymorphic, lambda, and match types | `DependentFunctionTypes.scala`, `PolymorphicFunctionTypes.scala`, `TypeLambdas.scala`, `MatchTypes.scala`, `GenericsAndTypeParameters.scala`, `VarianceBasics.scala` |
 | `module20oopinscala3` | Scala 3 OOP tools and richer enums | `TraitParameters.scala`, `OpenClasses.scala`, `ExportClauses.scala`, `EnumsWithBehavior.scala` |
 | `module21safetymodel` | Null boundaries, invariants, exhaustive states, initialization | `ExplicitNullBoundaries.scala`, `SmartConstructors.scala`, `ExhaustiveMatches.scala`, `InitializationPatterns.scala`, `ExplicitNullsMode.scala`, `SafeInitializationNotes.scala` |
 | `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala`, `SplicesAndQuotedPatterns.scala`, `ReflectTreeInspection.scala` |

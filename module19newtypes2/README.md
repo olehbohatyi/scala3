@@ -10,6 +10,8 @@ Covers more advanced Scala 3 type-system features.
 | `PolymorphicFunctionTypes.scala` | First-class polymorphic function values |
 | `TypeLambdas.scala` | Type lambdas for higher-kinded abstractions |
 | `MatchTypes.scala` | Match types and type-level branching |
+| `GenericsAndTypeParameters.scala` | Generic containers and reusable type parameters |
+| `VarianceBasics.scala` | Covariance, contravariance, and API intent |
 
 ## Run
 
