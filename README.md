@@ -44,6 +44,9 @@ scala-cli run module13projects/
 | `module11domainoop` | OOP and domain-oriented modeling | `ClassesAndConstructors.scala`, `TraitsAndMixins.scala`, `EnumsBasics.scala` |
 | `module12domainfp` | Functional domain modeling | `CaseClasses.scala`, `SealedTraitsAndAdts.scala`, `OptionBasics.scala`, `EitherBasics.scala`, `TryBasics.scala` |
 | `module13projects` | Mini-projects for interviews and portfolio | `ExpenseTrackerApp.scala`, `InterviewPipelineApp.scala`, `LibraryRentalApp.scala`, `SupportTicketApp.scala` |
+| `module14scala3syntax` | Scala 3 syntax updates | `OptionalBraces.scala`, `TopLevelDefinitions.scala`, `MainMethods.scala`, `WildcardTypes.scala` |
+| `module15givensandusing` | Contextual abstractions basics | `GivenInstances.scala`, `UsingClauses.scala`, `SummonAndContextParameters.scala`, `ContextBounds.scala`, `GivenImports.scala` |
+| `module16extensionandtypeclasses` | Extension methods, type classes, equality, conversions | `ExtensionMethods.scala`, `TypeClasses.scala`, `MultiversalEquality.scala`, `ImplicitConversions.scala` |
 
 ## Navigation by Goal
 
@@ -77,6 +80,7 @@ scala-cli run module13projects/
 - **OOP and design**: `module11`, `module13`
 - **Error handling**: `module05`, `module12`
 - **Domain modeling**: `module11`, `module12`, `module13`
+- **Scala 3-specific features**: `module14`, `module15`, `module16`
 
 ## Recommended Review Order Before Interviews
 

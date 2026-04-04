@@ -79,3 +79,16 @@ A topic-based index for fast interview preparation.
 - What does “make illegal states unrepresentable” mean?
 - Why are sealed traits useful for workflow/state modeling?
 - How would you split immutable domain data and stateful services in a real application?
+
+
+## Scala 3 Features
+
+- `module14scala3syntax/OptionalBraces.scala` — indentation syntax and end markers
+- `module14scala3syntax/TopLevelDefinitions.scala` — top-level defs, vals, enums, case classes
+- `module14scala3syntax/MainMethods.scala` — Scala 3 `@main` entry points
+- `module14scala3syntax/WildcardTypes.scala` — `?` wildcard types
+- `module15givensandusing/*.scala` — `given`, `using`, summon, context bounds, given imports
+- `module16extensionandtypeclasses/ExtensionMethods.scala` — extension methods
+- `module16extensionandtypeclasses/TypeClasses.scala` — type-class style programming
+- `module16extensionandtypeclasses/MultiversalEquality.scala` — `CanEqual` and strict equality
+- `module16extensionandtypeclasses/ImplicitConversions.scala` — controlled conversions and trade-offs
