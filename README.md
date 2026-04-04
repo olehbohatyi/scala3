@@ -50,6 +50,9 @@ scala-cli run module13projects/
 | `module17contextfunctions` | Context functions and contextual workflows | `BasicContextFunctions.scala`, `ContextFunctionValues.scala`, `ContextualWorkflows.scala`, `ContextFunctionsVsUsing.scala` |
 | `module18newtypes1` | Union, intersection, opaque, structural, transparent features | `UnionAndIntersectionTypes.scala`, `OpaqueTypes.scala`, `StructuralTypes.scala`, `TransparentTraitsAndClasses.scala` |
 | `module19newtypes2` | Dependent, polymorphic, lambda, and match types | `DependentFunctionTypes.scala`, `PolymorphicFunctionTypes.scala`, `TypeLambdas.scala`, `MatchTypes.scala` |
+| `module20oopinscala3` | Scala 3 OOP tools and richer enums | `TraitParameters.scala`, `OpenClasses.scala`, `ExportClauses.scala`, `EnumsWithBehavior.scala` |
+| `module21safetymodel` | Null boundaries, invariants, exhaustive states, initialization | `ExplicitNullBoundaries.scala`, `SmartConstructors.scala`, `ExhaustiveMatches.scala`, `InitializationPatterns.scala` |
+| `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala` |
 
 ## Navigation by Goal
 
@@ -83,7 +86,7 @@ scala-cli run module13projects/
 - **OOP and design**: `module11`, `module13`
 - **Error handling**: `module05`, `module12`
 - **Domain modeling**: `module11`, `module12`, `module13`
-- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`
+- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`, `module20`, `module21`, `module22`
 
 ## Recommended Review Order Before Interviews
 

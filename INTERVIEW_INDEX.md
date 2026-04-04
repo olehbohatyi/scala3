@@ -99,3 +99,7 @@ A topic-based index for fast interview preparation.
 - `module18newtypes1/StructuralTypes.scala` — structural typing trade-offs
 - `module18newtypes1/TransparentTraitsAndClasses.scala` — transparent inline type precision
 - `module19newtypes2/*.scala` — dependent, polymorphic, lambda, and match types
+
+- `module20oopinscala3/*.scala` — trait parameters, open classes, export clauses, rich enums
+- `module21safetymodel/*.scala` — null boundaries, smart constructors, exhaustive modeling, initialization patterns
+- `module22metaprogramming/*.scala` — inline, constValue, quotes, and reflection
