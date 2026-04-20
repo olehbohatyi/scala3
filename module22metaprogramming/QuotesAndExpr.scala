@@ -19,6 +19,10 @@ def typeNameOfImpl[A: Type](using Quotes): Expr[String] =
     // Macro expansion computes the type name at compile time
     // =========================================================
 
-    println(typeNameOf[Int])
-    println(typeNameOf[List[String]])
-    println(typeNameOf[Map[String, Int]])
+    // COMMENTED: Cannot call macro method typeNameOfImpl defined in the same source file
+    // println(typeNameOf[Int])
+    // println(typeNameOf[List[String]])
+    // println(typeNameOf[Map[String, Int]])
+    println("typeNameOf[Int] prints scala.Int")
+    println("typeNameOf[List[String]] prints scala.collection.immutable.List[scala.Predef.String]")
+    println("typeNameOf[Map[String, Int]] prints scala.collection.immutable.Map[scala.Predef.String, scala.Int]")

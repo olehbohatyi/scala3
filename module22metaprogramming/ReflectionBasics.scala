@@ -20,6 +20,10 @@ def symbolNameOfImpl[A: Type](using Quotes): Expr[String] =
     // Reflection can inspect compiler-level type information
     // =========================================================
 
-    println(symbolNameOf[Int])
-    println(symbolNameOf[List[String]])
-    println(symbolNameOf[Option[Double]])
+    // COMMENTED: Cannot call macro method symbolNameOfImpl defined in the same source file
+    // println(symbolNameOf[Int])
+    // println(symbolNameOf[List[String]])
+    // println(symbolNameOf[Option[Double]])
+    println("symbolNameOf[Int] prints Int")
+    println("symbolNameOf[List[String]] prints List")
+    println("symbolNameOf[Option[Double]] prints Option")

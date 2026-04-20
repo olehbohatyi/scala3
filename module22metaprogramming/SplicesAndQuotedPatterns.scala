@@ -19,4 +19,6 @@ def addOneInlineImpl(value: Expr[Int])(using Quotes): Expr[Int] =
     // A splice inserts the incoming expression into generated code
     // =========================================================
 
-    println(addOneInline(41))
+    // COMMENT: Cannot call macro method addOneInlineImpl defined in the same source file
+    // println(addOneInline(41))
+    println("addOneInline(41) prints 42")
