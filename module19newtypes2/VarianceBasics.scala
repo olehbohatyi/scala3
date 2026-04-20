@@ -6,33 +6,33 @@ package module19newtypes2
 // Scala's variance annotations make API intent visible in the type definition.
 // This file demonstrates covariance and contravariance with small examples.
 
-class Animal:
+class Animal1:
     override def toString: String = "animal"
 
-class Dog extends Animal:
-    override def toString: String = "dog"
+class Cat extends Animal1:
+    override def toString: String = "cat"
 
 case class ReadBox[+A](value: A)
 
 trait Printer[-A]:
     def print(value: A): String
 
-val animalPrinter: Printer[Animal] =
-    (value: Animal) => s"printed:$value"
+val animalPrinter: Printer[Animal1] =
+    (value: Animal1) => s"printed:$value"
 
 @main def varianceBasics(): Unit =
 
     // =========================================================
-    // Covariance lets a box of Dog be used where a box of Animal is expected
+    // Covariance lets a box of cat be used where a box of Animal is expected
     // =========================================================
 
-    val dogBox: ReadBox[Dog] = ReadBox(Dog())
-    val animalBox: ReadBox[Animal] = dogBox
+    val catBox: ReadBox[Cat] = ReadBox(Cat())
+    val animalBox: ReadBox[Animal1] = catBox
     println(animalBox)
 
     // =========================================================
-    // Contravariance lets an Animal printer work for Dog values too
+    // Contravariance lets an Animal printer work for cat values too
     // =========================================================
 
-    val dogPrinter: Printer[Dog] = animalPrinter
-    println(dogPrinter.print(Dog()))
+    val catPrinter: Printer[Cat] = animalPrinter
+    println(catPrinter.print(Cat()))
