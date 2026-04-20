@@ -21,6 +21,17 @@ package module11domainoop
     println(Role.values.toList)  // all cases
 
     // =========================================================
+    // Additional: parsing enums from strings safely
+    // =========================================================
+
+    def parse(value: String): Option[Role] =
+        Role.values.find(_.toString.equalsIgnoreCase(value.trim))
+
+    println(parse("admin"))
+    println(parse("viewer"))
+    println(parse("unknown"))
+
+    // =========================================================
     // Enum with methods
     // =========================================================
 
@@ -98,15 +109,3 @@ package module11domainoop
 
     val journey = List(OrderState.Draft, OrderState.Submitted, OrderState.Paid, OrderState.Shipped)
     journey.foreach(s => println(s"$s terminal=${s.isTerminal}"))
-
-    // =========================================================
-    // Additional: parsing enums from strings safely
-    // =========================================================
-
-    object Role:
-        def parse(value: String): Option[Role] =
-            Role.values.find(_.toString.equalsIgnoreCase(value.trim))
-
-    println(Role.parse("admin"))
-    println(Role.parse("viewer"))
-    println(Role.parse("unknown"))
