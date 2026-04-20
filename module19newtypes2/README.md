@@ -12,6 +12,7 @@ Covers more advanced Scala 3 type-system features.
 | `MatchTypes.scala` | Match types and type-level branching |
 | `GenericsAndTypeParameters.scala` | Generic containers and reusable type parameters |
 | `VarianceBasics.scala` | Covariance, contravariance, and API intent |
+| `TypeBoundsAndConstraints.scala` | Upper and lower bounds in generic APIs |
 
 ## Run
 
