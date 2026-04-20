@@ -12,6 +12,8 @@ Covers practical Scala 3 metaprogramming features from inline to quotes and refl
 | `ReflectionBasics.scala` | Basic use of `quotes.reflect` |
 | `SplicesAndQuotedPatterns.scala` | Splices and quoted code composition |
 | `ReflectTreeInspection.scala` | Inspecting syntax trees with `quotes.reflect` |
+| `SummonFromAndInlineMatch.scala` | Compile-time selection with `summonFrom` |
+| `QuotedPatternMatching.scala` | Pattern matching directly on quoted expressions |
 
 ## Run
 
