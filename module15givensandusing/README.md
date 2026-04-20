@@ -29,7 +29,7 @@ trait Show[A]:
 given Show[Int] with
     def show(value: Int): String = s"int:$value"
 
-def render[A](value: A)(using show: Show[A]): String =
+def show[A](value: A)(using show: Show[A]): String =
     show.show(value)
 
 def maxOf[A: Ordering](a: A, b: A): A =
