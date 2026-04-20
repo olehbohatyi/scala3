@@ -19,7 +19,7 @@ object Show:
     given Show[String] with
         def show(value: String): String = s"\"$value\""
 
-def render[A](value: A)(using show: Show[A]): String =
+def show[A](value: A)(using show: Show[A]): String =
     show.show(value)
 
 @main def givenInstances(): Unit =
@@ -30,13 +30,13 @@ def render[A](value: A)(using show: Show[A]): String =
 
     import Show.given
 
-    println(render(42))
-    println(render(true))
-    println(render("Scala 3"))
+    println(show(42))
+    println(show(true))
+    println(show("Scala 3"))
 
     // =========================================================
     // Givens are resolved by required type
     // =========================================================
 
-    val rendered = List(1, 2, 3).map(render(_))
+    val rendered = List(1, 2, 3).map(show(_))
     println(rendered)
