@@ -10,6 +10,7 @@ Covers core Scala 3 type-system additions used in real code.
 | `OpaqueTypes.scala` | Opaque types for zero-overhead domain modeling |
 | `StructuralTypes.scala` | Structural types and reflective selection |
 | `TransparentTraitsAndClasses.scala` | Transparent traits and transparent inline methods |
+| `OpaqueTypesWithValidation.scala` | Opaque types combined with validation |
 
 ## Run
 
