@@ -14,11 +14,11 @@ package module02basics
 
     // --- Explicit type annotation: name: Type = value ---
     // book example: declaring the type explicitly
-    val age: Int        = 30
+    val age: Int        = 37
     val name: String    = "Oleh"
-    val salary: Double  = 95_000.0
+    val salary: Double  = 80_000.0
     val isActive: Boolean = true
-    val initial: Char   = 'A'
+    val initial: Char   = 'O'
 
     println(s"age=$age, name=$name, salary=$salary")
     println(s"isActive=$isActive, initial=$initial")

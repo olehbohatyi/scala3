@@ -13,15 +13,15 @@ package module03strings
     // =========================================================
 
     val name = "Oleh"
-    val age  = 42
+    val age  = 37
 
     // embed a variable directly with $name
     println(s"Hello, $name!")           // Hello, Oleh!
 
     // embed any expression with ${...}
-    println(s"In 10 years: ${age + 10}")   // In 10 years: 52
-    println(s"Name length: ${name.length}") // Name length: 5
-    println(s"Uppercase:   ${name.toUpperCase}")  // Uppercase: Oleh
+    println(s"In 10 years: ${age + 10}")   // In 10 years: 47
+    println(s"Name length: ${name.length}") // Name length: 4
+    println(s"Uppercase:   ${name.toUpperCase}")  // Uppercase: OLEH
 
     // boolean expression inside interpolation
     val score = 87
@@ -35,7 +35,7 @@ package module03strings
     // f"..." — formatted interpolation (compile-time type check)
     // =========================================================
 
-    val salary  = 95_000.5
+    val salary  = 80_000.0
     val pi      = 3.141592653589793
     val product = "Scala Course"
 
@@ -46,7 +46,7 @@ package module03strings
     println(f"Pi:      $pi%10.4f")         // Pi:          3.1416
 
     // %d — integer formatting
-    println(f"Age:     $age%05d")          // Age:     00042  (zero-padded, width 5)
+    println(f"Age:     $age%05d")          // Age:     00037  (zero-padded, width 5)
 
     // %s — string formatting, %-20s = left-aligned in width 20
     println(f"Product: $product%-20s | end")  // Product: Scala Course         | end
