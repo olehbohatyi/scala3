@@ -11,6 +11,8 @@ Covers the core contextual abstraction model in Scala 3.
 | `SummonAndContextParameters.scala` | Accessing contextual values with `summon` |
 | `ContextBounds.scala` | Context bounds and generic constraints |
 | `GivenImports.scala` | Importing givens intentionally and locally |
+| `NamedGivensAndLocalOverrides.scala` | Named givens and block-scoped overrides |
+| `CapabilityStyleDesign.scala` | Capability-style contextual programming |
 
 ## Run
 
