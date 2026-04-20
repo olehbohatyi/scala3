@@ -12,6 +12,7 @@ Covers practical Scala 3 workflows around Scala CLI, sbt, Java interop, and migr
 | `MigrationNotes.scala` | Practical Scala 2 to Scala 3 migration checkpoints |
 | `PackagingAndImports.scala` | Packaging structure and import guidance |
 | `WorksheetsAndTesting.scala` | Worksheets, REPL, and testing workflow |
+| `ImplicitsToGivensMigration.scala` | Migration map from Scala 2 implicits to Scala 3 style |
 
 ## Run
 
