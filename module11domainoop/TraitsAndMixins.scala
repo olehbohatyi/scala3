@@ -26,7 +26,7 @@ package module11domainoop
     // =========================================================
 
     trait TimestampLogger:
-        def now(): String = "2026-04-04T09:55:00"
+        def now: String = "2026-04-04T09:55:00"
         def logWithTimestamp(message: String): Unit =
             println(s"[$now] $message")
 

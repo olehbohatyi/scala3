@@ -12,18 +12,18 @@ import scala.language.implicitConversions
 case class Kilometers(value: Double):
     def toMiles: Double = value * 0.621371
 
-case class UserId(value: String)
+case class User(value: String)
 
 given Conversion[Double, Kilometers] with
     def apply(value: Double): Kilometers = Kilometers(value)
 
-given Conversion[String, UserId] with
-    def apply(value: String): UserId = UserId(value.trim)
+given Conversion[String, User] with
+    def apply(value: String): User = User(value.trim)
 
 def travel(distance: Kilometers): String =
     f"distance=${distance.value}%.1f km (${distance.toMiles}%.1f mi)"
 
-def lookupUser(id: UserId): String = s"user:${id.value}"
+def lookupUser(id: User): String = s"user:${id.value}"
 
 @main def implicitConversions(): Unit =
 

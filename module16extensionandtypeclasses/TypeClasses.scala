@@ -21,13 +21,13 @@ object JsonEncoder:
     given [A](using encoder: JsonEncoder[A]): JsonEncoder[List[A]] with
         def encode(values: List[A]): String = values.map(encoder.encode).mkString("[", ", ", "]")
 
-case class User(name: String, level: Int)
+case class UserLevel(name: String, level: Int)
 
-object User:
-    given JsonEncoder[User] with
-        def encode(user: User): String =
-            val encodedName = JsonEncoder[String].encode(user.name)
-            s"{" + s"\"name\":$encodedName,\"level\":${user.level}" + s"}"
+object UserLevel:
+    given JsonEncoder[UserLevel] with
+        def encode(userLevel: UserLevel): String =
+            val encodedName = JsonEncoder[String].encode(userLevel.name)
+            s"{" + s"\"name\":$encodedName,\"level\":${userLevel.level}" + s"}"
 
 def toJson[A: JsonEncoder](value: A): String =
     JsonEncoder[A].encode(value)
@@ -44,4 +44,4 @@ def toJson[A: JsonEncoder](value: A): String =
     println(toJson("Scala"))
     println(toJson(42))
     println(toJson(List(1, 2, 3)))
-    println(toJson(User("Alice", 5)))
+    println(toJson(UserLevel("Alice", 5)))
