@@ -45,14 +45,16 @@ package module05constructs
 
     // Scala 3 has no do/while keyword, but we can simulate it:
     // run the body once, then check the condition
+    // https://docs.scala-lang.org/scala3/reference/dropped-features/do-while.html
     var k = 10
     var ranOnce = false
     // body executes first
-    do
+    while
         ranOnce = true
         println(s"ran at least once, k=$k")
         k += 1
-    while k < 5   // condition is false from the start, but body ran once
+        k < 5
+    do ()   // condition is false from the start, but body ran once
 
     println(s"ranOnce = $ranOnce")   // true
 
