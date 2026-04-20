@@ -23,5 +23,8 @@ def debugTypeOfImpl[A: Type](using Quotes): Expr[String] =
     // =========================================================
 
     println(labelOf["job-service"])
-    println(debugTypeOf[Int])
-    println(debugTypeOf[Either[String, List[Int]]])
+    // COMMENT: Cannot call macro method debugTypeOfImpl defined in the same source file 
+    // println(debugTypeOf[Int])
+    // println(debugTypeOf[Either[String, List[Int]]])
+    println("debugTypeOf[Int] prints type=scala.Int")
+    println("debugTypeOf[Either[String, List[Int]]] prints type=scala.util.Either[scala.Predef.String, scala.collection.immutable.List[scala.Int]]")
