@@ -96,10 +96,10 @@ import scala.collection.mutable.ArrayBuffer
     words.sortInPlaceBy(_.length)
     println(s"sortInPlaceBy len: $words")  // ArrayBuffer(date, apple, banana, cherry)
 
-    // reverseInPlace — reverse in place
+    // reverse — reverse the buffer
     val r = ArrayBuffer(1, 2, 3, 4, 5)
-    r.reverseInPlace()
-    println(s"reverseInPlace: $r")   // ArrayBuffer(5, 4, 3, 2, 1)
+    val rNew = r.reverse // Returns a NEW sequence with the elements of this sequence in reverse order.
+    println(s"reverse: $rNew")   // ArrayBuffer(5, 4, 3, 2, 1)
 
     // distinct — returns a NEW ArrayBuffer with duplicates removed
     val dups = ArrayBuffer(1, 2, 2, 3, 3, 3, 4)
