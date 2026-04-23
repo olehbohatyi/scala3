@@ -9,17 +9,18 @@ package module23toolingandinterop
 //> using scala 3.3.4
 //> using dep com.lihaoyi::os-lib:0.10.2
 
-import os.*
-
-@main def scalaCliDirectives(): Unit =
-
-    // =========================================================
-    // Simple Scala CLI style script behavior
-    // =========================================================
-
-    val workingDir = pwd
-    val demoPath = workingDir / "scala3" / "module23toolingandinterop"
-
-    println(s"workingDir=$workingDir")
-    println(s"demoPath=$demoPath")
-    println(exists(demoPath))
+// TODO
+//import os.*
+//
+//@main def scalaCliDirectives(): Unit =
+//
+//    // =========================================================
+//    // Simple Scala CLI style script behavior
+//    // =========================================================
+//
+//    val workingDir = pwd
+//    val demoPath = workingDir / "scala3" / "module23toolingandinterop"
+//
+//    println(s"workingDir=$workingDir")
+//    println(s"demoPath=$demoPath")
+//    println(exists(demoPath))
