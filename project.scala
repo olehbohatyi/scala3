@@ -1,1 +1,1 @@
-//> using scala "3.3.4"
+//> using scala "3.10.0"

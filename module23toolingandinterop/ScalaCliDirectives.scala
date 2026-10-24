@@ -6,7 +6,7 @@ package module23toolingandinterop
 // Scala CLI helps keep the barrier to running Scala 3 code low.
 // This file demonstrates the directive style while remaining runnable inside the course structure.
 
-//> using scala 3.3.4
+//> using scala 3.10.0
 //> using dep com.lihaoyi::os-lib:0.10.2
 
 // TODO
