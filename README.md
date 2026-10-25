@@ -20,12 +20,20 @@ Compact, runnable Scala 3 notes for interview prep, knowledge refresh, mentoring
 
 ## Quick Start
 
+Every `.scala` file runs on its own. Add `project.scala` to pin the course Scala version (3.10.0); without it Scala CLI uses its own default version.
+
 ```bash
-scala-cli run module01setup/
-scala-cli run module07collections/
-scala-cli run module10functions/
-scala-cli run module13projects/
+# one file
+scala-cli run project.scala module01setup/WhyScala3.scala
+
+# one entry point from the whole course (main class = package.mainMethodName)
+scala-cli run . --main-class module07collections.listClass
+
+# pick an entry point from a menu
+scala-cli run . --interactive
 ```
+
+A module folder contains several `@main` methods, so `scala-cli run module01setup/` needs `--main-class` or `--interactive` too.
 
 ## Course Map
 
@@ -55,6 +63,7 @@ scala-cli run module13projects/
 | `module22metaprogramming` | Inline, compile-time constants, quotes, reflection | `InlineBasics.scala`, `CompileTimeConstants.scala`, `QuotesAndExpr.scala`, `ReflectionBasics.scala`, `SplicesAndQuotedPatterns.scala`, `ReflectTreeInspection.scala` |
 | `module23toolingandinterop` | Toolchain, Java interop, and migration checkpoints | `ScalaCliDirectives.scala`, `SbtAndProjectLayout.scala`, `JavaInteropBasics.scala`, `MigrationNotes.scala`, `PackagingAndImports.scala`, `WorksheetsAndTesting.scala` |
 | `module24capstone` | Final Scala 3 integration projects | `ContextAwareJobBoard.scala`, `TypedOrderSystem.scala`, `CompileTimeDiagnostics.scala`, `Scala3FeatureTourApp.scala` |
+| `module25modernscala3` | Features from Scala 3.6 to 3.10 | `NewGivenSyntax.scala`, `NamedTuples.scala`, `BetterForsAndRuntimeChecked.scala`, `IntoConversions.scala`, `Scala310Highlights.scala` |
 
 ## Navigation by Goal
 
@@ -88,7 +97,7 @@ scala-cli run module13projects/
 - **OOP and design**: `module11`, `module13`
 - **Error handling**: `module05`, `module12`
 - **Domain modeling**: `module11`, `module12`, `module13`
-- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`, `module20`, `module21`, `module22`, `module23`, `module24`
+- **Scala 3-specific features**: `module14`, `module15`, `module16`, `module17`, `module18`, `module19`, `module20`, `module21`, `module22`, `module23`, `module24`, `module25`
 
 ## Recommended Review Order Before Interviews
 

@@ -1,7 +1,7 @@
 package module06tuples
 
 // Summary: A Tuple groups a fixed number of values of DIFFERENT types into one value.
-// Tuples are immutable and their size is fixed at compile time (Tuple2 through Tuple22).
+// Tuples are immutable and their size is fixed at compile time; Scala 3 dropped the 22-element limit.
 // Elements are accessed by zero-based index with t(0), t(1), etc. (Scala 3 syntax).
 // Tuples shine for returning multiple values from a function without defining a class.
 // Key difference from List: List is homogeneous (all same type), Tuple is heterogeneous.
@@ -138,3 +138,6 @@ package module06tuples
     // building a Map from a List of tuples
     val mapFromTuples = people.toMap
     println(s"map: $mapFromTuples")   // Map(Alice -> 30, Bob -> 25, Carol -> 35)
+
+    // since Scala 3.7 elements can be named: (name = "Alice", age = 30)
+    // see module25modernscala3/NamedTuples.scala

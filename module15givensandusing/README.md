@@ -26,6 +26,8 @@ scala-cli run module15givensandusing/
 trait Show[A]:
     def show(value: A): String
 
+// Scala 3.0 style used in this module; since 3.6 prefer `given Show[Int]:`
+// (see module25modernscala3/NewGivenSyntax.scala)
 given Show[Int] with
     def show(value: Int): String = s"int:$value"
 
