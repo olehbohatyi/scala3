@@ -86,8 +86,8 @@ package module10functions
     val squares = nums.map(square)    // square is eta-expanded to n => square(n)
     println(s"squares: $squares")
 
-    // explicit eta-expansion with trailing _
-    val squareFn: Int => Int = square _   // or just `square` when type is known
+    // the Scala 2 trailing `square _` is no longer needed (and warns since 3.4)
+    val squareFn: Int => Int = square
     println(squareFn(7))    // 49
 
     // eta-expansion of a multi-param method gives a multi-param function
