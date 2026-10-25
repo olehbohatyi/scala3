@@ -38,8 +38,8 @@ def toJson[A: JsonEncoder](value: A): String =
     // Import given encoders
     // =========================================================
 
+    // UserLevel's encoder lives in its companion, so it needs no import
     import JsonEncoder.given
-    import User.given
 
     println(toJson("Scala"))
     println(toJson(42))

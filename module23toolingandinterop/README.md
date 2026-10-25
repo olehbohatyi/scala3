@@ -24,7 +24,7 @@ scala-cli run module23toolingandinterop/
 
 ```scala
 //> using scala 3.10.0
-//> using dep com.lihaoyi::os-lib:0.10.2
+//> using dep com.lihaoyi::os-lib:0.11.8
 
 import scala.jdk.CollectionConverters.*
 
